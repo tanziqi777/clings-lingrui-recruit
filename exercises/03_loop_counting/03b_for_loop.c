@@ -19,9 +19,17 @@ int main(void) {
     int i;
     int sum = 0;
 
-#error TODO: Fix this exercise. Run "clings hint" for help.
+    for (i = 10; i >= 1; i--) {
+        printf("counter = %d\n",i);
+    }
 
-#error TODO: Fix this exercise. Run "clings hint" for help.
+    i = 1;
+    do {
+        sum = sum +i;
+        i++;
+    }while (i <= 10);
+
+    printf("sum = %d\n",sum);
 
     return 0;
 }
